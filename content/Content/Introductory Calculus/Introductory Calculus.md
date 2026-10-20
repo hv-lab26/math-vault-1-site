@@ -42,6 +42,3 @@ MUFY Unit 1, Study Area 3 — the first calculus topics: limits as the foundatio
 | Increasing / decreasing | $f'(x)>0$ on an interval $\implies$ increasing there; $f'(x)<0 \implies$ decreasing |
 | Tangent line at $x=a$ | $y-f(a) = f'(a)(x-a)$ |
 | Average vs instantaneous rate of change | Average: $\dfrac{f(b)-f(a)}{b-a}$ (gradient of a chord). Instantaneous: $f'(a)$ (gradient of the tangent) |
-
-> [!warning] Most common mistakes across these notes
-> Forgetting the chain rule's "outer × inner derivative" when the inside isn't just $x$; applying the quotient rule's numerator in the wrong order (it isn't symmetric, so $f'g-fg'$ and $fg'-f'g$ give opposite signs); and declaring a stationary point a maximum or minimum without actually checking the sign change or the second derivative (see the corrections flagged in [[Introductory Calculus - Practice and Revision]]).
