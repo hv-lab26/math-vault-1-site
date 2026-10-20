@@ -1,7 +1,7 @@
 
 Hi, I'm Alex Nguyen. I'm a Pure Mathematics freshman in Australia.
 
-This is my Unit 1 Maths vault, where I keep notes and worked exercises for MUFY (Monash University Foundation Year) Standard Mathematics — **Functions** and **Introductory Calculus**.
+This is my Maths vault 1, where I keep notes, worked exercises, and systematise 2 areas of maths:  **Functions** and **Introductory Calculus**.
 
 **Navigate to "Content" folder to see the maths there.**
 
@@ -36,9 +36,9 @@ Content
 ---
 
 # Contact:
-- Gmail: hngu0275@student.monash.edu
+- Gmail: havy.16708@gmail.com
 - Discord: alexng.167
-
+_All feedbacks are appreciated_
 
 ---
 
