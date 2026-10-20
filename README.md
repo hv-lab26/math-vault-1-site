@@ -1,6 +1,6 @@
 # Maths Unit 1 Vault — Website
 
-This repo builds [maths-unit-1-vault](https://github.com/) (my Obsidian notes for MUFY Unit 1 — Functions and Introductory Calculus) into a browsable website using [Quartz](https://quartz.jzhao.xyz/), and deploys it to GitHub Pages automatically on every push.
+This repo builds [maths-unit-1-vault](https://github.com/) (my Obsidian notes for Functions and Introductory Calculus) into a browsable website using [Quartz](https://quartz.jzhao.xyz/), and deploys it to GitHub Pages automatically on every push.
 
 ## Updating the site
 
