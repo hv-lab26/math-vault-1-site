@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: PLACEHOLDER.github.io/maths-unit-1-site
+  hv-lab26.github.io/math-vault-1-site
   ignorePatterns:
     - private
     - templates
