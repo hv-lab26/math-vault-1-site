@@ -1,6 +1,6 @@
 # Introductory Calculus - Practice and Revision
 
-Mixed practice drawn from the Study Area 3 practice sheets, revision sets, revision quiz, and take-home test. Organised by sub-topic; each section links to the relevant concept note. Worked exactly, with every computation re-checked — genuine errors found in the original working are flagged with a correction callout.
+Mixed practice drawn from the Study Area 3 practice sheets, revision sets, revision quiz, and take-home test. Organised by sub-topic; each section links to the relevant concept note. 
 
 ## Differentiation Rules
 
