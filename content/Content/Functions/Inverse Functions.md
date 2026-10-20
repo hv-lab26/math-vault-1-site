@@ -109,12 +109,9 @@ $$
 \begin{aligned}
 x &= y^3-1\\
 x+1 &= y^3\\
-y &= \sqrt[9]{x+1} &&\leftarrow\ \text{(as originally written)}
+y &= \sqrt[3]{x+1}
 \end{aligned}
 $$
-
-> [!warning] Correction
-> Original had $\sqrt[9]{x+1}$ — should be $\sqrt[3]{x+1}$, because $y^3=x+1$ is undone by a **cube** root, not a ninth root: the index of the root taken must match the power being undone.
 
 So $g^{-1}(x) = \sqrt[3]{x+1}$. *Check:* $g(0)=-1$, and $g^{-1}(-1)=\sqrt[3]{0}=0$. ✓
 
@@ -171,14 +168,11 @@ $$
 y &= -5x+1\\
 x &= -5y+1 &&\text{(swap)}\\
 x-1 &= -5y\\
-y &= -\dfrac{x+1}{5} &&\leftarrow\ \text{(as originally written)}
+y &= \dfrac{1-x}{5}
 \end{aligned}
 $$
 
-> [!warning] Correction
-> Original had $y=-\dfrac{x+1}{5}$ — should be $y=-\dfrac{x-1}{5}=\dfrac{1-x}{5}$, because dividing $x-1=-5y$ by $-5$ gives $y=\dfrac{x-1}{-5}=-\dfrac{x-1}{5}$; the constant term should stay matched to the "$x-1$" already on the left, not flip sign to "$x+1$".
-
-So $g^{-1}(x) = \dfrac{1-x}{5}$. *Check:* $g(2)=-10+1=-9$, and $g^{-1}(-9)=\dfrac{1-(-9)}{5}=\dfrac{10}{5}=2$. ✓ (The originally-written formula instead gives $-\dfrac{-9+1}{5}=\dfrac{8}{5}=1.6\neq2$, confirming the error.)
+So $g^{-1}(x) = \dfrac{1-x}{5}$. *Check:* $g(2)=-10+1=-9$, and $g^{-1}(-9)=\dfrac{1-(-9)}{5}=\dfrac{10}{5}=2$. ✓
 
 ### Rational Functions
 

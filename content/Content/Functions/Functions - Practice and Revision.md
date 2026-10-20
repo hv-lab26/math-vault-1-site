@@ -128,11 +128,6 @@ $$2x^2-5x-3 = 2x^2-6x+x-3 = 2x(x-3)+1(x-3) = (2x+1)(x-3)$$
 
 $$\implies P(x) = (x+2)(2x+1)(x-3)$$
 
-So $(x+2)$, $(x+3)$... *(the original working lists the factors as "$(x+2)$ & $(x+3)$ & $(2x+1)$"; by the division above the correct third linear factor is $(x-3)$, not $(x+3)$ — confirmed by multiplying out $(x+2)(x-3)(2x+1)$ below.)*
-
-> [!warning] Correction
-> Original had the factor $(x+3)$ — should be $(x-3)$, because dividing $2x^3-x^2-13x-6$ by $(x+2)$ gives quotient $2x^2-5x-3=(2x+1)(x-3)$, not $(2x+1)(x+3)$. Check: $(x+2)(x-3)(2x+1) = 2x^3-x^2-13x-6$ ✓, whereas $(x+2)(x+3)(2x+1)$ expands to a different cubic.
-
 ### Polynomial long division and full factorisation
 
 Factorise $P(x) = 2x^3+x^2-13x+6$.
@@ -181,9 +176,6 @@ $$y + 5 = \dfrac{1}{2x+6} = \dfrac{1}{2(x+3)}$$
 
 $$\implies y = \dfrac{1}{2(x+3)} - 5$$
 
-> [!warning] Correction
-> Original working simplified this to $y=\dfrac{1}{x+3}-5$ — should be $y = \dfrac{1}{2(x+3)}-5 = \dfrac12\cdot\dfrac{1}{x+3}-5$, because $\dfrac{1}{2x+6}=\dfrac{1}{2(x+3)}$, and the factor of $2$ in the denominator cannot simply be dropped. (This slip doesn't affect the final asymptotes below, since they depend only on $x+3$ and the $-5$ shift, not on the numerator's constant.)
-
 Comparing to $y=\dfrac{a}{x-h}+k$: $(h,k)=(-3,-5)$.
 
 $$\implies \textbf{Asymptotes: } x=-3, \ \ y=-5$$
@@ -205,9 +197,6 @@ Find the x-intercept (set $y=0$):
 $$0 = \dfrac{-30}{x+5}+10 \implies 10 = \dfrac{30}{x+5} \implies x+5 = 3 \implies x=-2$$
 
 $$\implies \text{x-intercept: } (-2,0)$$
-
-> [!warning] Correction
-> Original had x-intercept $(10,0)$ — should be $(-2,0)$, because solving $0=\dfrac{-30}{x+5}+10$ gives $x+5=3$, i.e. $x=-2$ (not $x=10$).
 
 ## Logarithmic Functions
 
@@ -362,9 +351,6 @@ $$t_1 = \dfrac{3(\pi/6)}{\pi} = \dfrac12, \qquad t_2 = \dfrac{3(5\pi/6)}{\pi} = 
 Since the period is $6$ (from part a), every subsequent solution repeats by adding multiples of $6$ to $t_1$ and $t_2$:
 
 $$t_3 = t_1+6 = 6.5, \quad t_4 = t_2+6=8.5, \quad t_5=t_1+12=12.5, \quad t_6=t_2+12=14.5, \ \ldots$$
-
-> [!warning] Correction
-> Original labelled these repeats "$t_3=2\pi+\tfrac12$", "$t_4=2\pi+\tfrac52$", "$t_5=4\pi+\tfrac12$", "$t_6=4\pi+\tfrac52$" — should be "$+6$" and "$+12$" (not "$+2\pi$" and "$+4\pi$"), because each repeat is one full period of $P(t)$ *in $t$*, which is $6$ (part a), not $2\pi$. Numerically this matters: $2\pi\approx6.283\neq6$. The $t$-values actually intended ($6.5, 8.5, 12.5, 14.5$, as derived above) are consistent with a period of $6$.
 
 $$\implies t = \dfrac12, \dfrac52, 6.5, 8.5, 12.5, 14.5, \ldots \ \text{(months)}$$
 
