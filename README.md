@@ -1,4 +1,4 @@
-[![Code and docs: MIT](https://img.shields.io/badge/code%20%26%20docs-MIT-green)](LICENSE)
+[![Code and docs: MIT](https://img.shields.io/badge/code%20%26%20docs-MIT-green)](LICENSE.txt)
 
 # Maths Unit 1 Vault - Website
 
