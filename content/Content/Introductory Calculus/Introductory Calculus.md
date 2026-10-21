@@ -1,6 +1,6 @@
 # Introductory Calculus
 
-MUFY Unit 1, Study Area 3 — the first calculus topics: limits as the foundation for the derivative, the rules for differentiating, and what differentiation is actually used for.
+Calc I topics: limits as the foundation for the derivative, the rules for differentiating, and what differentiation is actually used for.
 
 ## Notes
 
