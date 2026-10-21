@@ -58,6 +58,3 @@ The function families and techniques covered before Introductory Calculus. Notes
 | Inverse function | Swap $x$ and $y$ in $y=f(x)$, then solve for $y$ |
 | Graph of $f^{-1}$ | Reflection of $y=f(x)$ in the line $y=x$ |
 | Vertex/endpoint form (parabola, square root, hyperbola) | $a(x-h)^{\,\cdot}+k$ — $(h,k)$ shifts the graph, $a$ scales/reflects it |
-
-> [!warning] Most common mistakes across these notes
-> Dropping a factor when simplifying inside a square root or a log before reading off a domain/asymptote (see the corrections flagged in [[Functions - Practice and Revision]]); forgetting that the quadratic formula's $\pm$ gives **two** roots, not one; and mixing up which way a parabola/cubic/hyperbola is reflected or shifted when reading transformation constants off the wrong form.
