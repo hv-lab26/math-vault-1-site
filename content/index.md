@@ -1,5 +1,5 @@
 
-Hi, I'm Alex Nguyen. I'm a Pure Mathematics freshman.
+Hi, 
 
 This is my Maths vault 1, where I keep notes, worked exercises, and systematise 2 areas of maths:  **Functions** and **Introductory Calculus**.
 
