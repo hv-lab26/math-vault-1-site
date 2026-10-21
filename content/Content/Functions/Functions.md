@@ -1,6 +1,6 @@
 # Functions
 
-MUFY Unit 1 — the function families and techniques covered before Introductory Calculus. Notes are ordered roughly as they build on each other, though each one stands alone.
+The function families and techniques covered before Introductory Calculus. Notes are ordered roughly as they build on each other, though each one stands alone.
 
 ## Notes
 
