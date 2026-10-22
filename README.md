@@ -12,3 +12,8 @@ npm install
 npx quartz build --serve
 ```
 then open http://localhost:8080.
+
+
+# Licence
+
+This project is licenced under the MIT License - see the [License](https://github.com/hv-lab26/math-vault-1-site/blob/v5/License.txt) file for details.
