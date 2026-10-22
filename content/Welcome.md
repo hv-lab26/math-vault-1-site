@@ -42,7 +42,10 @@ _All feedbacks are appreciated_
 ---
 
 # Additional Related Information
+
 My taking notes app: Obsidian
+
 My calculator: **TI 84 Plus CE** and **Casio fx-580VNX**
+
 *I recommend using Casio FX-880BTG rather than Casio fx-580VNX however*
 
