@@ -1,6 +1,6 @@
 Hi, 
 
-This is my Maths vault 1, where I keep notes, worked exercises, and systematise 2 areas of maths:  **Functions** and **Introductory Calculus**.
+This is my Maths vault 1, where I systematise and keep notes and/or worked exercises of 2 areas of maths:  **Functions** and **Introductory Calculus**.
 
 **Navigate to "Content" folder to see the maths there.**
 
