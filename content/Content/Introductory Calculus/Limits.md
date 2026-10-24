@@ -13,7 +13,7 @@ A limit describes the value that a function $f(x)$ gets closer and closer to as 
 | Sum/Difference Law | $\lim_{x \to a}[f(x) \pm g(x)] = \lim_{x \to a} f(x) \pm \lim_{x \to a} g(x)$ |
 | Constant Multiple Law | $\lim_{x \to a}[k f(x)] = k \lim_{x \to a} f(x)$ |
 | Product Law | $\lim_{x \to a}[f(x)g(x)] = \lim_{x \to a} f(x) \cdot \lim_{x \to a} g(x)$ |
-| Quotient Law | $\lim_{x \to a}\dfrac{f(x)}{g(x)} = \dfrac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)}$, provided $\lim_{x \to a} g(x) \neq 0$ |
+| Quotient Law | $\lim_{x \to a}\dfrac{f(x)}{g(x)} = \dfrac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)}$, provided $\lim_{x \to a} g(x) \mathrel{\char"2260} 0$ |
 | Indeterminate form $\frac{0}{0}$ | Factorise numerator/denominator, cancel the common factor, *then* substitute |
 | Continuity at $x = a$ | $f(a)$ is defined, $\lim_{x \to a} f(x)$ exists, and $\lim_{x \to a} f(x) = f(a)$ |
 | Limits at infinity | Divide every term by the highest power of $x$ present; use $\dfrac{1}{x^n} \to 0$ as $x \to \infty$ |
@@ -76,13 +76,13 @@ $$\lim_{x \to a}[k\,f(x)] = k\lim_{x \to a} f(x) \qquad \text{(constant multiple
 
 $$\lim_{x \to a}[f(x)g(x)] = \lim_{x \to a} f(x) \cdot \lim_{x \to a} g(x) \qquad \text{(product law)}$$
 
-$$\lim_{x \to a}\frac{f(x)}{g(x)} = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)}, \quad \text{provided } \lim_{x \to a} g(x) \neq 0 \qquad \text{(quotient law)}$$
+$$\lim_{x \to a}\frac{f(x)}{g(x)} = \frac{\lim_{x \to a} f(x)}{\lim_{x \to a} g(x)}, \quad \text{provided } \lim_{x \to a} g(x) \mathrel{\char"2260} 0 \qquad \text{(quotient law)}$$
 
 Why does this justify just "plugging in" a value, as in the worked examples below? Every polynomial is built from the identity function $x$ and constants, combined only by addition and multiplication. Two facts are intuitively obvious on their own: $\lim_{x \to a} k = k$ for any constant $k$ (a constant function never changes, so it trivially "approaches" its own value everywhere), and $\lim_{x \to a} x = a$ (the identity function approaches exactly whatever value $x$ is heading towards). Applying the sum, constant-multiple and product laws repeatedly to these two building blocks shows that for *any* polynomial $p(x)$,
 
 $$\lim_{x \to a} p(x) = p(a).$$
 
-The quotient law then extends this result to rational functions $\dfrac{p(x)}{q(x)}$ — but only at values of $a$ where $q(a) \neq 0$, since the law explicitly requires the denominator's limit to be nonzero. This is precisely why direct substitution works in Worked Examples 1 and 2 below, and precisely why it breaks down in Worked Example 3.
+The quotient law then extends this result to rational functions $\dfrac{p(x)}{q(x)}$ — but only at values of $a$ where $q(a) \mathrel{\char"2260} 0$, since the law explicitly requires the denominator's limit to be nonzero. This is precisely why direct substitution works in Worked Examples 1 and 2 below, and precisely why it breaks down in Worked Example 3.
 
 ## Evaluating Limits by Direct Substitution
 
@@ -104,7 +104,7 @@ So the limit is $\mathbf{10}$.
 
 *(The exact approach value is faint in the original handwritten working, but it must be $x \to 0$: this is the only reading consistent with the displayed arithmetic $\frac{6}{3}=2$, since substituting $x=0$ gives $\frac{0^2+5(0)+6}{0+3}=\frac{6}{3}$.)*
 
-**Solution:** $f(x) = \dfrac{x^2+5x+6}{x+3}$ is a rational function, continuous everywhere except where its denominator is zero, i.e. everywhere except $x=-3$. Since $0 \neq -3$, $f$ is continuous at $x=0$, so direct substitution applies:
+**Solution:** $f(x) = \dfrac{x^2+5x+6}{x+3}$ is a rational function, continuous everywhere except where its denominator is zero, i.e. everywhere except $x=-3$. Since $0 \mathrel{\char"2260} -3$, $f$ is continuous at $x=0$, so direct substitution applies:
 
 $$\lim_{x \to 0}\frac{x^2+5x+6}{x+3} = \frac{(0)^2+5(0)+6}{0+3} = \frac{6}{3} = 2$$
 
@@ -130,7 +130,7 @@ $$x^2+5x+6 = (x+2)(x+3)$$
 
 $$\lim_{x \to -3}\frac{x^2+5x+6}{x+3} = \lim_{x \to -3}\frac{(x+2)(x+3)}{x+3}$$
 
-A limit as $x \to -3$ only ever considers values of $x$ *near* $-3$, never $x=-3$ itself — so throughout this whole process $x+3 \neq 0$, and it is completely legitimate to cancel it:
+A limit as $x \to -3$ only ever considers values of $x$ *near* $-3$, never $x=-3$ itself — so throughout this whole process $x+3 \mathrel{\char"2260} 0$, and it is completely legitimate to cancel it:
 
 $$= \lim_{x \to -3}(x+2)$$
 
@@ -172,7 +172,7 @@ The difficulty is that computing the gradient of a line needs *two* points (rise
 
 **Solution:** The gradient of a chord is rise over run, i.e. $\Delta y / \Delta x$:
 
-$$\text{Gradient} = \frac{\text{rise}}{\text{run}} = \frac{\Delta y}{\Delta x} = \frac{f(x+h)-f(x)}{h} \quad (h \neq 0)$$
+$$\text{Gradient} = \frac{\text{rise}}{\text{run}} = \frac{\Delta y}{\Delta x} = \frac{f(x+h)-f(x)}{h} \quad (h \mathrel{\char"2260} 0)$$
 
 Applying this between $P$ at $x=1$ and $Q$ at $x=1+h$:
 
@@ -186,7 +186,7 @@ Expand $(1+h)^2 = 1+2h+h^2$:
 
 $$= \frac{(1+2h+h^2+2)-(1+2)}{h} = \frac{(h^2+2h+3)-3}{h} = \frac{h^2+2h}{h}$$
 
-Factorise the numerator and cancel $h$ (valid since $h \neq 0$):
+Factorise the numerator and cancel $h$ (valid since $h \mathrel{\char"2260} 0$):
 
 $$= \frac{h(h+2)}{h} = h+2$$
 
@@ -202,11 +202,11 @@ Repeating the exact same argument at a general point $x$ on a general curve $y=f
 
 *Diagram from the source notes: a general increasing curve $y=f(x)$ is sketched. Two points are marked: $P$ at horizontal position $x$ (height $f(x)$), and $Q$ further right at horizontal position $x+h$ (height $f(x+h)$). The straight chord $PQ$ is drawn between them. Beneath the chord, a right-angled triangle shows the "run" — a horizontal segment of length $h$, from $x$ to $x+h$ — and the "rise" — a vertical segment of length $f(x+h)-f(x)$, from the height of $P$ up to the height of $Q$.*
 
-$$\text{Gradient of } PQ = \frac{\text{rise}}{\text{run}} = \frac{\Delta y}{\Delta x} = \frac{f(x+h)-f(x)}{h} \quad (h \neq 0)$$
+$$\text{Gradient of } PQ = \frac{\text{rise}}{\text{run}} = \frac{\Delta y}{\Delta x} = \frac{f(x+h)-f(x)}{h} \quad (h \mathrel{\char"2260} 0)$$
 
 As $Q$ moves along the curve towards $P$, $h$ gets smaller and smaller. As $Q$ gets as close as possible to $P$, $h \to 0$, and the chord $PQ$ becomes a **tangent** at $P$. The gradient of the curve at a point $P$ is, by definition, the gradient of the tangent at that point — that is,
 
-$$f'(x) = \lim_{h \to 0}\frac{f(x+h)-f(x)}{h} \quad (h \neq 0)$$
+$$f'(x) = \lim_{h \to 0}\frac{f(x+h)-f(x)}{h} \quad (h \mathrel{\char"2260} 0)$$
 
 Finding the gradient this way is called **differentiation from first principles**. Differentiating $f(x)$ gives $f'(x)$ — $f'(x)$ is *the derivative* of $f(x)$. Differentiating $y$ gives $\dfrac{dy}{dx}$ — $\dfrac{dy}{dx}$ is the derivative of $y$ with respect to $x$. The gradient function $f'(x)$ is the rule for the **instantaneous rate of change** of $f$ at any point $x$, as distinct from $\dfrac{f(x+h)-f(x)}{h}$, which is only ever an **average rate of change** over the interval from $x$ to $x+h$.
 

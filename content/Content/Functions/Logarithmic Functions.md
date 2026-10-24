@@ -2,7 +2,7 @@
 
 A logarithm answers the question "what power do I need?" Specifically, $\log_a y$ is the power that $a$ must be raised to in order to get $y$. Because of this, the logarithm function $\log_a x$ is defined as the **inverse** of the exponential function $a^x$ (see [[Inverse Functions]]): one undoes the other.
 
-$$a^x = y \quad\Longleftrightarrow\quad \log_a(y) = x \qquad (a>0,\ a\neq1,\ y>0)$$
+$$a^x = y \quad\Longleftrightarrow\quad \log_a(y) = x \qquad (a>0,\ a\mathrel{\char"2260}1,\ y>0)$$
 
 Applying the swap-$x$-and-$y$ method from [[Inverse Functions]] to $y=a^x$ gives exactly this: swapping produces $x=a^y$, and solving for $y$ (by definition) gives $y=\log_a x$ — so $\log_a x$ and $a^x$ are genuinely inverse functions of one another, not just related by coincidence.
 

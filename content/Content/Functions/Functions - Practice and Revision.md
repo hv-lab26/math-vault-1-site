@@ -110,7 +110,7 @@ Factorise $P(x) = 2x^3-x^2-13x-6$.
 
 Test small integer values using the Factor Theorem:
 
-$$P(1) \neq 0, \qquad P(-1) \neq 0, \qquad P(2) \neq 0, \qquad P(-2) = 0 \ \text{(remainder } 0\text{)}$$
+$$P(1) \mathrel{\char"2260} 0, \qquad P(-1) \mathrel{\char"2260} 0, \qquad P(2) \mathrel{\char"2260} 0, \qquad P(-2) = 0 \ \text{(remainder } 0\text{)}$$
 
 Check: $P(-2) = 2(-8)-(4)-13(-2)-6 = -16-4+26-6 = 0$. ✓ So $(x+2)$ is a factor.
 
@@ -224,7 +224,7 @@ $$\implies x^4 = 9 \implies (x^2)^2 = 3^2 \implies x^2 = \pm 3$$
 
 Since $x^2\geq 0$ for all real $x$, $x^2=-3$ is impossible, so $x^2=3 \implies x=\pm\sqrt3$.
 
-Since $x$ is the base of a logarithm, we need $x>0$ (and $x\neq1$), so $x=-\sqrt3$ is rejected.
+Since $x$ is the base of a logarithm, we need $x>0$ (and $x\mathrel{\char"2260}1$), so $x=-\sqrt3$ is rejected.
 
 $$\implies x = \sqrt3$$
 
@@ -410,17 +410,17 @@ Subtracting (i) from (ii) eliminates $b$ and gives a single equation in $a$ alon
 
 ### Domain restrictions (combined example)
 
-*(Question reconstructed from working: find the domain, given the restrictions $x>1$, $x\neq2$ (from a term such as $\dfrac{1}{x-2}$ — see [[Reciprocal Functions]]), and $3-x>0$ (from a term such as $\sqrt{3-x}$ — see [[Square Root Function]]).)*
+*(Question reconstructed from working: find the domain, given the restrictions $x>1$, $x\mathrel{\char"2260}2$ (from a term such as $\dfrac{1}{x-2}$ — see [[Reciprocal Functions]]), and $3-x>0$ (from a term such as $\sqrt{3-x}$ — see [[Square Root Function]]).)*
 
 The reciprocal-type restriction:
 
-$$x-2\neq0 \iff x\neq2$$
+$$x-2\mathrel{\char"2260}0 \iff x\mathrel{\char"2260}2$$
 
 The square-root-type restriction:
 
 $$3-x>0 \implies -x>-3 \implies x<3$$
 
-Combining all three restrictions ($x>1$ and $x\neq2$ and $x<3$):
+Combining all three restrictions ($x>1$ and $x\mathrel{\char"2260}2$ and $x<3$):
 
 $$\implies \text{Domain} = (1,2)\cup(2,3)$$
 

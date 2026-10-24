@@ -2,7 +2,7 @@
 
 A cubic function has general form
 
-$$y=ax^3+bx^2+cx+d, \qquad a\neq0$$
+$$y=ax^3+bx^2+cx+d, \qquad a\mathrel{\char"2260}0$$
 
 - If $a>0$, the cubic is "positive": as $x\to-\infty$, $y\to-\infty$, and as $x\to+\infty$, $y\to+\infty$ (the graph trends upward overall, left to right).
 - If $a<0$, the cubic is "negative": the trend is reversed (downward overall, left to right).
@@ -21,9 +21,9 @@ $(h,k)$ is the **inflection point** of the cubic. Unlike a parabola's vertex for
 
 **(a) Factorise, using the factor theorem.** (See [[Polynomial Division and the Factor Theorem]] for the theorem itself.) Test integer divisors of the constant term ($6$: try $\pm1,\pm2,\pm3,\pm6$) until one gives $P(a)=0$:
 
-$$P(1)=2(1)-1-13-6=-18 \neq 0$$
-$$P(-1)=2(-1)-1+13-6=4\neq0$$
-$$P(2)=2(8)-4-26-6=-20\neq0$$
+$$P(1)=2(1)-1-13-6=-18 \mathrel{\char"2260} 0$$
+$$P(-1)=2(-1)-1+13-6=4\mathrel{\char"2260}0$$
+$$P(2)=2(8)-4-26-6=-20\mathrel{\char"2260}0$$
 $$P(-2)=2(-8)-4+26-6=-16-4+26-6=0 \ \checkmark$$
 
 So $P(-2)=0$, meaning $(x+2)$ is a factor. Dividing $P(x)$ by $(x+2)$ (by long division) gives
@@ -46,7 +46,7 @@ $$\implies x=3 \ \text{ or } \ x=-\frac12$$
 
 ## Factored Form and Repeated Factors
 
-$$y=a(x-b)(x-c)(x-d), \qquad a\neq0$$
+$$y=a(x-b)(x-c)(x-d), \qquad a\mathrel{\char"2260}0$$
 
 Here $b,c,d$ are the three $x$-intercepts, and the graph crosses the axis at each one.
 

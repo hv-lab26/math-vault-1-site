@@ -2,7 +2,7 @@
 
 A **quadratic function** has the general form
 
-$$f(x) = ax^2 + bx + c, \qquad a, b, c \in \mathbb{R}, \ a \neq 0$$
+$$f(x) = ax^2 + bx + c, \qquad a, b, c \in \mathbb{R}, \ a \mathrel{\char"2260} 0$$
 
 Its graph is a **parabola** — a symmetric, U-shaped curve. The sign of $a$ tells you which way it opens:
 

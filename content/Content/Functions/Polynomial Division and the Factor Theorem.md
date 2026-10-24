@@ -66,7 +66,7 @@ By the factor theorem, test $P(3)$:
 
 $$P(3)=2(3)^3-4(3)^2-3(3)-8=54-36-9-8=1$$
 
-Since $P(3)=1\neq0$, $(x-3)$ is **not** a factor of $P(x)$.
+Since $P(3)=1\mathrel{\char"2260}0$, $(x-3)$ is **not** a factor of $P(x)$.
 
 ## Homework Exercise: Division with a Negative Leading Divisor
 

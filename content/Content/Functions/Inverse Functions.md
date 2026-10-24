@@ -12,7 +12,7 @@ Not every function has an inverse that is itself a function — this is discusse
 
 | Concept | Statement |
 |---|---|
-| Notation | $f^{-1}(x)$ is the inverse of $f$. **$f^{-1}(x) \neq \dfrac{1}{f(x)}$.** |
+| Notation | $f^{-1}(x)$ is the inverse of $f$. **$f^{-1}(x) \mathrel{\char"2260} \dfrac{1}{f(x)}$.** |
 | Defining property | $f^{-1}(b) = a \iff f(a) = b$ |
 | Existence condition | $f^{-1}$ is a function $\iff$ $f$ is **one-to-one** (passes the Horizontal Line Test) |
 | Domain/range swap | $\operatorname{domain}(f^{-1}) = \operatorname{range}(f)$ and $\operatorname{range}(f^{-1}) = \operatorname{domain}(f)$ |
@@ -25,7 +25,7 @@ Not every function has an inverse that is itself a function — this is discusse
 
 A function $f$ is **one-to-one** if every output value corresponds to exactly one input value — no two different $x$-values ever give the same $y$-value.
 
-This matters because of what an inverse has to *do*: reverse the mapping. If $f$ sent two different inputs $x_1 \neq x_2$ to the same output $y_0$, then $f^{-1}$ would have to send $y_0$ back to both $x_1$ and $x_2$ — but a function can only output one value for a given input. So $f^{-1}$ would fail to be a function. One-to-one-ness of $f$ is exactly what guarantees $f^{-1}$ is a genuine function.
+This matters because of what an inverse has to *do*: reverse the mapping. If $f$ sent two different inputs $x_1 \mathrel{\char"2260} x_2$ to the same output $y_0$, then $f^{-1}$ would have to send $y_0$ back to both $x_1$ and $x_2$ — but a function can only output one value for a given input. So $f^{-1}$ would fail to be a function. One-to-one-ness of $f$ is exactly what guarantees $f^{-1}$ is a genuine function.
 
 Graphically this is the **Horizontal Line Test**: if any horizontal line $y=k$ crosses the graph of $f$ more than once, $f$ is not one-to-one. (Compare the Vertical Line Test, which checks that $f$ itself is a function. Reflecting a graph in $y=x$ swaps the roles of horizontal and vertical lines — which is exactly why the Horizontal Line Test on $f$ corresponds to the Vertical Line Test on $f^{-1}$.)
 
@@ -188,7 +188,7 @@ y &= \dfrac{4}{x}-2
 \end{aligned}
 $$
 
-So $g^{-1}(x) = \dfrac{4}{x}-2$. *Check:* $g(0)=\dfrac{4}{2}=2$, and $g^{-1}(2)=\dfrac{4}{2}-2=0$. ✓ Domain of $g$ is $x\neq-2$ with range $y\neq0$; domain of $g^{-1}$ is $x\neq0$ with range $y\neq-2$ — exactly swapped, as expected.
+So $g^{-1}(x) = \dfrac{4}{x}-2$. *Check:* $g(0)=\dfrac{4}{2}=2$, and $g^{-1}(2)=\dfrac{4}{2}-2=0$. ✓ Domain of $g$ is $x\mathrel{\char"2260}-2$ with range $y\mathrel{\char"2260}0$; domain of $g^{-1}$ is $x\mathrel{\char"2260}0$ with range $y\mathrel{\char"2260}-2$ — exactly swapped, as expected.
 
 **Example 10 (Q27).** *Find the inverse function of $g(x) = \dfrac{8-5x}{4}$.*
 

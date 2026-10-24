@@ -16,7 +16,7 @@ Calc I topics: limits as the foundation for the derivative, the rules for differ
 | Concept | Formula |
 |---|---|
 | Derivative from first principles | $f'(x) = \displaystyle\lim_{h\to0}\dfrac{f(x+h)-f(x)}{h}$ |
-| Limit laws | $\displaystyle\lim_{x\to a}[f(x)\pm g(x)] = \lim_{x\to a}f(x)\pm\lim_{x\to a}g(x)$, and similarly for products/quotients (quotient needs $\lim g(x)\neq0$) |
+| Limit laws | $\displaystyle\lim_{x\to a}[f(x)\pm g(x)] = \lim_{x\to a}f(x)\pm\lim_{x\to a}g(x)$, and similarly for products/quotients (quotient needs $\lim g(x)\mathrel{\char"2260}0$) |
 | Continuity at $x=a$ | $f(a)$ is defined, $\displaystyle\lim_{x\to a}f(x)$ exists, and the two are equal |
 
 **Differentiation rules**

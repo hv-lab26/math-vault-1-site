@@ -93,7 +93,7 @@ $$y-3 = \frac14(x-1) \implies y = \frac14x-\frac14+3 = \frac14x+\frac{11}{4}$$
 To sketch $y=ax+b$, the two easiest points to plot are usually the **intercepts**, since each only needs substituting $0$ for one variable:
 
 - **$y$-intercept:** set $x=0$ → $y=b$.
-- **$x$-intercept:** set $y=0$ → $0=ax+b \Rightarrow x=-b/a$ (provided $a\neq0$).
+- **$x$-intercept:** set $y=0$ → $0=ax+b \Rightarrow x=-b/a$ (provided $a\mathrel{\char"2260}0$).
 
 Because two points are enough to draw a unique straight line, plotting these two and joining them with a ruler gives the whole graph.
 
